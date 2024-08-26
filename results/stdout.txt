@@ -1,0 +1,43 @@
+[2024-08-26T13:51:44.199Z] info  code-server 4.89.1 effc6e95b4ad1c5ac5f9083ec06663ba4a2e005c
+[2024-08-26T13:51:44.199Z] info  Using user-data-dir /home/ubuntu/.vscode
+[2024-08-26T13:51:44.212Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2024-08-26T13:51:44.212Z] info  HTTP server listening on http://0.0.0.0:8888/
+[2024-08-26T13:51:44.212Z] info    - Authentication is disabled
+[2024-08-26T13:51:44.212Z] info    - Not serving HTTPS
+[2024-08-26T13:51:44.212Z] info  Session server listening on /home/ubuntu/.vscode/code-server-ipc.sock
+[13:51:47] 
+
+
+
+
+[13:51:47] Extension host agent started.
+[13:51:51] [127.0.0.1][4052205a][ManagementConnection] New connection established.
+[13:51:53] [127.0.0.1][fa3986c7][ExtensionHostConnection] New connection established.
+[13:51:53] [127.0.0.1][fa3986c7][ExtensionHostConnection] <251> Launched Extension Host Process.
+[13:51:57] Getting Manifest... ms-python.debugpy
+[13:51:57] Getting Manifest... ms-python.python
+[13:51:57] Getting Manifest... ms-toolsai.jupyter-renderers
+[13:51:58] Installing extension: ms-toolsai.jupyter-renderers
+[13:51:58] Installing extension: ms-python.debugpy
+[13:51:58] Installing extension: ms-python.python
+[13:51:59] Getting Manifest... ms-python.python
+[13:52:00] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+[13:52:02] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+[13:52:02] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal: ms-toolsai.jupyter-renderers
+[13:52:02] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal
+[13:52:02] Extracting extension completed. ms-toolsai.jupyter-renderers
+[13:52:02] Extension installed successfully: ms-toolsai.jupyter-renderers
+[13:52:02] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.17-universal
+[13:52:03] Extension signature verification is not done: ms-python.python
+[13:52:04] Extension signature verification is not done: ms-python.debugpy
+[13:52:04] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal: ms-python.python
+[13:52:04] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal
+[13:52:04] Extracting extension completed. ms-python.python
+[13:52:04] Extension installed successfully: ms-python.python
+[13:52:04] Finished waiting for already requested installing extension ms-python.python ms-python.debugpy
+[13:52:04] Marked extension as uninstalled ms-python.python-2024.4.1
+[13:52:04] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+[13:52:04] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+[13:52:04] Extracting extension completed. ms-python.debugpy
+[13:52:04] Extension installed successfully: ms-python.debugpy
+[13:52:04] Marked extension as uninstalled ms-python.debugpy-2024.6.0-linux-x64
