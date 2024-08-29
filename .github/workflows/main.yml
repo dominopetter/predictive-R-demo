@@ -1,0 +1,20 @@
+name: Trigger Job on Push
+
+# Trigger the workflow on any push to the repository
+on:
+  push:
+    branches:
+      - main  # or specify another branch if needed
+
+jobs:
+  trigger_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Domino Job
+        run: |
+          curl -X POST "https://se-demo.domino.tech/v4/jobs/start" \
+          -H "accept: application/json" \
+          -H "X-Domino-Api-Key: e6a89f042124ffb55918ca22d4dfa655f5c45393ef2cfb6538fb1b3802d9babf" \
+          -H "Content-Type: application/json" \
+          -d '{"projectId":"66c6f2ff4331e7599bb2937a","commandToRun":"pred_model.R"}'
